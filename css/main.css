@@ -1,0 +1,104 @@
+body {
+    background-color: #ffffff;
+}
+    .container {
+        display: inline-block;
+        width: 800px;
+        margin-top: 100px;
+        margin-left: calc(50% - 400px);
+    }
+        .left {
+            display: inline-block;
+            width: 50%;
+            float: left;
+        }
+        .right {
+            display: inline-block;
+            width: 40%;
+            padding: 20px;
+            float: right;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+        }
+            .form {
+                display: inline-block;
+                width: 100%;
+            }
+                .form-row {
+                    display: inline-block;
+                    width: 100%;
+                    margin-bottom: 20px;
+                    position: relative;
+                }
+                    .main-title {
+                        display: inline-block;
+                        width: 100%;
+                        text-align: center;
+                    }
+                    .label {
+                        display: inline-block;
+                        width: 100%;
+                        font-size: 12px;
+                        font-weight: bold;
+                    }
+                        .required {
+                            color: red;
+                        }
+                    .input {
+                        display: inline-block;
+                        width: 100%;
+                        padding: 10px;
+                        padding-left: 50px;
+                    }
+                    .form-row > .fa {
+                        position: absolute;
+                        bottom: 10px;
+                        left: 16px;
+                        font-size: 20px;
+                    }
+                    .checkbox {
+
+                    }
+                    .checkbox-label {
+
+                    }
+                    .forgot-link {
+                        float: right;
+                    }
+                    .btn {
+                        width: 100%;
+                    }
+            .form-bottom {
+                display: inline-block;
+                width: 100%;
+                text-align: center;
+            }
+                .form-bottom > p {
+                    margin-bottom: 20px;
+                    text-transform: capitalize;
+                }
+                .form-bottom > .icon-list {
+                    margin-bottom: 20px;
+                }
+                    .form-bottom > .icon-list > .fa {
+                        width: 30px;
+                        height: 30px;
+                        line-height: 30px;
+                        border: 1px solid #333;
+                        border-radius: 7px;
+                    }
+                        .form-bottom > .icon-list > .fa:hover {
+                            background-color: #36f;
+                            color: #fff;
+                            border-color: #36f;
+                            cursor: pointer;
+                        }
+                .form-bottom > .extra-link > p {
+                    display: inline-block;
+                }
+                .form-bottom > .extra-link > a {
+                    text-transform: capitalize;
+                    text-decoration: none;
+                    font-weight: bold;
+                    color: #555;
+                }
