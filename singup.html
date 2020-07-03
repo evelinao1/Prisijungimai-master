@@ -16,12 +16,29 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <div class="container">
-        <img class="left" src="./img/login-image.png" alt="Prietaisai ir mergina">
-        <div class="right">
+    <div class="container-singup">
+        <div class="space">
+         
+        </div>
+        <img class="left-singup" src="./img/signup.png" alt="Prietaisai ir mergina">
+        <div class="right-signup">
             <form class="form">
                 <div class="form-row">
-                    <h1 class="main-title">Login</h1>
+                    <h1 class="main-title">Singup</h1>
+                </div>
+                <div class="form-row">
+                    <table>
+                        <tr>
+                          <th class="label-name" for="">First name<span class="required">*</span></th>
+                          <th class="label-name" for="">Last name<span class="required">*</span></th>
+                        </tr>
+                        <tr>
+                          <td><input class="input-name" type="fname" placeholder="First name" required></td>
+                          <i class="fa fa-user-o"></i>
+                          <td><input class="input" type="lname" placeholder="Last name" required></td>
+                          <i class="fa-lname fa-user-o"></i>
+                        </tr>
+                    </table>
                 </div>
                 <div class="form-row">
                     <label class="label" for="">Your email <span class="required">*</span></label>
@@ -34,16 +51,20 @@
                     <i class="fa fa-key"></i>
                 </div>
                 <div class="form-row">
-                    <input class="checkbox" type="checkbox">
-                    <label class="checkbox-label">Remember me</label>
-                    <a class="forgot-link" href="#">Forgot password?</a>
+                    <label class="label" for="">Confirm password <span class="required">*</span></label>
+                    <input class="input" type="password" placeholder="Confirm password" required>
+                    <i class="fa fa-key"></i>
                 </div>
                 <div class="form-row">
-                    <div class="btn">Sign in</div>
+                    <input class="checkbox" type="checkbox">
+                    <label class="checkbox-label">I accept <span class="terms">terms and conditions</span></label>
+                </div>
+                <div class="form-row">
+                    <div class="btn">Register</div>
                 </div>
             </form>
             <div class="form-bottom">
-                <p>Or login with</p>
+                <p>Or sing up with</p>
                 <div class="icon-list">
                     <i class="fa fa-facebook"></i>
                     <i class="fa fa-github"></i>
@@ -51,8 +72,8 @@
                     <i class="fa fa-gitlab"></i>
                 </div>
                 <div class="extra-link">
-                    <p>Don't have an account?</p>
-                    <a href="#">Sign up</a>
+                    <p>Already have an account?</p>
+                    <a href="#">Sign in</a>
                 </div>
             </div>
         </div>
