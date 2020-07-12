@@ -7,10 +7,26 @@ body {
         margin-top: 100px;
         margin-left: calc(50% - 400px);
     }
+    .container-singup {
+        display: inline-block;
+        width: 800px;
+        margin-top: 0px;
+        margin-left: calc(50% - 400px);
+    }
+        .space{
+            display: inline-block;
+            width: 50%;
+            margin-top: 100px;
+            background-color: aqua;
+        }
         .left {
             display: inline-block;
             width: 50%;
             float: left;
+        }
+        .left-singup {
+            display: inline-block;
+            width: 50%;
         }
         .right {
             display: inline-block;
@@ -19,6 +35,16 @@ body {
             float: right;
             border: 1px solid #cccccc;
             border-radius: 5px;
+        }
+        .right-signup {
+            display: inline-block;
+            width: 40%;
+            margin-top: -100px;
+            padding: 20px;
+            float: right;
+            border: 1px solid #cccccc;
+            border-top: 0;
+            border-bottom: 0;
         }
             .form {
                 display: inline-block;
@@ -35,6 +61,11 @@ body {
                         width: 100%;
                         text-align: center;
                     }
+                    .label-name {
+                        font-size: 12px;
+                        font-weight: bold;
+                        text-align: left;
+                    }
                     .label {
                         display: inline-block;
                         width: 100%;
@@ -50,17 +81,35 @@ body {
                         padding: 10px;
                         padding-left: 50px;
                     }
+                    .input-name {
+                        display: inline-block;
+                        width: 95%;
+                        margin-right: 5%;
+                        padding: 10px;
+                        padding-left: 50px;
+                    }
                     .form-row > .fa {
                         position: absolute;
                         bottom: 10px;
                         left: 16px;
                         font-size: 20px;
                     }
+                    .form-row > .fa-lname {
+                        position: absolute;
+                        bottom: 10px;
+                        left: 160px;
+                        font-size: 20px;
+                        
+                    }
                     .checkbox {
 
                     }
                     .checkbox-label {
 
+                    }
+                    .terms {
+                        color: #2F55D4;
+                        cursor: pointer;
                     }
                     .forgot-link {
                         float: right;
